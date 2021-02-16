@@ -1,0 +1,19 @@
+{
+  "name": "hindi_gamer_club_secret_encrypter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "cross-env ENV_FILE=production node -r ./env ./index.js",
+    "staging:beak": "cross-env ENV_FILE=stagingbeak node -r ./env ./index.js",
+    "development": "cross-env ENV_FILE=development node -r ./env ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
